@@ -119,6 +119,7 @@
 
                 Console.WriteLine($"Tarih:{DateTime.Now}\nMesaj:{ex.Message}\nBulunduğu yer:{ex.StackTrace}");
             }
+            Console.ReadLine();
         }
     }
 }
