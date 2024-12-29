@@ -89,18 +89,18 @@
 
                     ogrencibilgileri[i, 6] = harfnotu;
                     Console.WriteLine();
-                }
+                    }
 
-                Console.WriteLine("{0,-10} {1,-10} {2,-10} {3,-10} {4,-10} {5,-20} {6,-5}", "Numara", "İsim", "Soyisim", "Vize Notu", "Final Notu", "Ortalama", "Harf Notu");
+                     Console.WriteLine("{0,-11} {1,-10} {2,-11} {3,-10} {4,-12} {5,-21} {6,-5}", "Numara", "İsim", "Soyisim", "Vize Notu", "Final Notu", "Ortalama", "Harf Notu");
 
-                Console.WriteLine("-------------------------------------------------------------------------------------------");
+                     Console.WriteLine("-------------------------------------------------------------------------------------------");
 
-                for (int i = 0; i < ogrencisayi; i++)
-                {
-                    Console.WriteLine("{0,-10} {1,-10} {2,-10} {3,-10} {4,-10} {5,-20} {6,-5}", ogrencibilgileri[i, 0], ogrencibilgileri[i, 1], ogrencibilgileri[i, 2], ogrencibilgileri[i, 3], ogrencibilgileri[i, 4], ogrencibilgileri[i, 5], ogrencibilgileri[i, 6]);
-                }
+                   for (int i = 0; i < ogrencisayi; i++)
+                   {
+                     Console.WriteLine("{0,-11} {1,-10} {2,-11} {3,-10} {4,-12} {5,-21} {6,-5}", ogrencibilgileri[i, 0], ogrencibilgileri[i, 1], ogrencibilgileri[i, 2], ogrencibilgileri[i, 3], ogrencibilgileri[i, 4], ogrencibilgileri[i, 5], ogrencibilgileri[i, 6]);
+                   }
 
-                double sınıfort = toplamnot / ogrencisayi;
+                 double sınıfort = toplamnot / ogrencisayi;
 
                 Console.WriteLine($"\nSınıf Ortalaması:{sınıfort}\nEn yüksek not : {enyuksek}\nEn düşük not : {endusuk}");
             }
