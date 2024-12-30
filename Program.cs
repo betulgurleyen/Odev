@@ -58,7 +58,7 @@
                     }
                     ogrencibilgileri[i, 4] = final.ToString();
 
-                    ortalama = vize * 0.4f + final * 0.6f;
+                    ortalama = vize * 0.4 + final * 0.6f
                     ogrencibilgileri[i, 5] = ortalama.ToString();
                     toplamnot += ortalama;
 
